@@ -1,0 +1,46 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+    background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);
+    background-size: cover;
+}
+h1{
+    text-align: center;
+}
+.game-over{
+    position: absolute;
+    left:600px;
+    top:200px;
+    color:white;
+    text-align: center;
+    visibility: hidden;
+}
+
+#score{
+    position:absolute;
+    left:20px; 
+    display: flex;
+    justify-content: center;
+}
+
+#time-score{
+    align-self:center;
+    font-weight: 900;
+    font-size: large;
+    padding-top: 4.5px;
+    padding-left: 15px;
+}
+
+.card-footer{
+    position: relative;
+    text-align: center;
+    top:450px;
+}
+.name{
+    padding-right: 10%;
+}
+.icons{
+    display: inline-block;
+    padding-left: 2%;
+    
+}
